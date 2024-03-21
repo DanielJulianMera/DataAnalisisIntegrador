@@ -16,5 +16,3 @@ data_b = data[data["is_dead"] == 1]
 # Calculamos la edad promedio de cada DataFrame y se imprime
 print("La edad promedio de los pacientes Vivos es: ", data_a["age"].mean())
 print("La edad promedio de los pacientes Muertos es: ", data_b["age"].mean())
-
-
