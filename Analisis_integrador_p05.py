@@ -48,4 +48,4 @@ def procesar_dataframe(nombre_archivo, nombre_nuevo = "datos.csv"):
         df.to_csv(nombre_nuevo, index=False)
 
 # Usamos la función
-procesar_dataframe("heart_faliure_text.csv", "hert_faliure_limpio.csv")
+procesar_dataframe("heart_faliure_text.csv", "heart_faliure_limpio.csv")
